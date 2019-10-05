@@ -1,4 +1,4 @@
-package patternDelegation;
+package _delegation;
 
 class Person {
     private String name;

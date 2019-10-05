@@ -1,4 +1,4 @@
-package patternInterface;
+package _interface;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package patternInterface;
+package _interface;
 
 public interface IMessenger {
     void sendMessage();

@@ -1,8 +1,8 @@
-package patternInterface;
+package _interface;
 
-public class Slack implements IMessenger, IStore {
+public class Email implements IMessenger, IStore {
 
-    private final String MESSENGER = "Slack";
+    private final String MESSENGER = "E-Mail";
 
     public void sendMessage() {
         System.out.println("Sent over " + MESSENGER);
