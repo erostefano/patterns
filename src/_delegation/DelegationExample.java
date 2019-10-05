@@ -1,6 +1,6 @@
 package _delegation;
 
-public class Main {
+public class DelegationExample {
     public static void main(String[] args) {
         /*
         Delegation from inside the class

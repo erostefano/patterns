@@ -1,6 +1,6 @@
 package _interface;
 
-public class Main {
+public class InterfaceExample {
     public static void main(String[] args) {
         /*
         Only the implementation of sendMessage() is passed.

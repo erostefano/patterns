@@ -1,6 +1,6 @@
 package _inheritance;
 
-public class Main {
+public class InheritanceExample {
     public static void main(String[] args) {
 
         /*
