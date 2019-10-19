@@ -21,3 +21,12 @@ Depending on a condition in the Context-Class (in this case StrategyExample) a s
 
 ## Immutable
 Creating an object which cannot be changed. This makes sense when you have some fields which should be set and program start and should not be changed later.
+
+## Marker
+It is used to mark information at class level. For example you can implement the empty interface Serializable to tell the class using your object that it can be serialized.
+
+The implementation can be checked by `if(someObj instanceof Serializable)`.
+ 
+> Serializable means the object can be represented as a sequence of bytes.
+
+> For study purposes the interface Punchable has been used.
