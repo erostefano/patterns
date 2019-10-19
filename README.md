@@ -18,3 +18,6 @@ Adding some functionality from another class.
 
 ## Strategy
 Depending on a condition in the Context-Class (in this case StrategyExample) a specific class is instantiated and passed to the interface.
+
+## Immutable
+Creating an object which cannot be changed. This makes sense when you have some fields which should be set and program start and should not be changed later.
