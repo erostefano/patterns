@@ -39,4 +39,4 @@ Annotations give the chance to mark and also to add metadata to the code.
 
 The example shows the use of annotations with Java Reflection API.
 
-> Reflection means the objects know his structure.
+> Reflection means the object know his structure.
