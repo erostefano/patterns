@@ -20,7 +20,7 @@ Adding some functionality from another class.
 Depending on a condition in the Context-Class (in this case StrategyExample) a specific class is instantiated and passed to the interface.
 
 ## Immutable
-Creating an object which cannot be changed. This makes sense when you have some fields which should be set and program start and should not be changed later.
+Creating an object which cannot be changed. This makes sense when you have some fields which should be set at program start and should not be changed later.
 
 ## Marker
 It is used to mark information at class level. For example you can implement the empty interface Serializable to tell the class using your object that it can be serialized.
