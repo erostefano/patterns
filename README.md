@@ -1,4 +1,4 @@
-# Patterns
+# Basic Patterns
 Short examples to the famous patterns in Software Engineering
 
 ## Inheritance
@@ -30,3 +30,13 @@ The implementation can be checked by `if(someObj instanceof Serializable)`.
 > Serializable means the object can be represented as a sequence of bytes.
 
 > For study purposes the interface Punchable has been used.
+
+## Annotation
+Annotations give the chance to mark and also to add metadata to the code.
+
+* @Deprecated: the class is backward compatible and should not be used for new code
+* @Override: checks if the super has actually the method which should be overridden
+
+The example shows the use of annotations with Java Reflection API.
+
+> Reflection means the objects know his structure.
