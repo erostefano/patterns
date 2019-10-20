@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * Check https://www.baeldung.com/java-custom-annotation
  */
 public class AnnotationExample {
-    public static void main(String[] args) throws JsonSerializationException, Exception {
+    public static void main(String[] args) throws Exception {
         Person person = new Person("John", "Doe", "2010-03-03", "USA", "Earth");
         checkIfJsonSerializable(person);
         initializeObject(person);

@@ -1,7 +1,7 @@
 package _annotation;
 
-class JsonSerializationException extends Throwable {
+class JsonSerializationException extends Exception {
     JsonSerializationException(String message) {
-        System.err.println(message);
+        super(message);
     }
 }
