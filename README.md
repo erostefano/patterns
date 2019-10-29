@@ -45,3 +45,6 @@ The example shows the use of annotations with Java Reflection API.
 
 ## Singleton
 In some cases you just need one instance of an class: E. g. when communicating with a printer or logging. 
+
+## Factory
+In some cases the creation of an object might be difficult or take pretty much lines of code. For those cases there are helpers like factories which create the object.
