@@ -40,3 +40,8 @@ Annotations give the chance to mark and also to add metadata to the code.
 The example shows the use of annotations with Java Reflection API.
 
 > Reflection means the object know his structure.
+
+# Creation
+
+## Singleton
+In some cases you just need one instance of an class: E. g. when communicating with a printer or logging. 
