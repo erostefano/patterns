@@ -48,3 +48,8 @@ In some cases you just need one instance of an class: E. g. when communicating w
 
 ## Factory
 In some cases the creation of an object might be difficult or take pretty much lines of code. For those cases there are helpers like factories which create the object.
+
+# Structure
+
+## Facade
+An API may offer you many methods to handle things. But often you do not need them all, you just need a few customized methods for your specific use case. For those cases you can create a Facade class which uses the APIs methods and offers some public methods to simplify things for you.
