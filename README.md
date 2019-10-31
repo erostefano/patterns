@@ -53,3 +53,6 @@ In some cases the creation of an object might be difficult or take pretty much l
 
 ## Facade
 An API may offer you many methods to handle things. But often you do not need them all, you just need a few customized methods for your specific use case. For those cases you can create a Facade class which uses the APIs methods and offers some public methods to simplify things for you.
+
+## Adapter
+Libraries offer functions which you can use in your own code. But sometimes they just do not fit out of the box in your code. For those cases you can create an adapter class which wraps those functions. 
