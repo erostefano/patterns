@@ -1,5 +1,5 @@
-# Basic Patterns
-Short examples to the famous patterns in Software Engineering
+# Basic
+The basic pattern are used within the advanved pattern.
 
 ## Inheritance
 A new class is created by extending another one. It is recommended for situations like: a student IS A person.
@@ -8,10 +8,10 @@ A new class is created by extending another one. It is recommended for situation
 * Downcasting: Down the inheritance tree
 
 ## Interface
-An interface defines methods which a class must implement. Later those implementations can be passed back to the interface for better abstraction.
+An interface defines methods which a class must implement. Those implementations can be passed back to the interface for better abstraction.
 
 ## Delegation
-Adding some functionality from another class.
+The delegation adds some functionality from another class.
 
 * From the inside: by instantiation of class
 * From the outside: over the constructor or a method param
@@ -42,17 +42,25 @@ The example shows the use of annotations with Java Reflection API.
 > Reflection means the object know his structure.
 
 # Creation
+The creation patterns handle the creation of objects.
 
 ## Singleton
-In some cases you just need one instance of an class: E. g. when communicating with a printer or logging. 
+The Singleton pattern is used when you just need one instance of an class: E. g. when communicating with a printer or logging. 
 
 ## Factory
-In some cases the creation of an object might be difficult or take pretty much lines of code. For those cases there are helpers like factories which create the object.
+The Factory pattern is used when the creation of an object might be difficult or take pretty much lines of code. For those cases there are helpers like factories which create the object.
 
 # Structure
+The structures pattern are used when the actual structure is not suitable and needs to be customized.
 
 ## Facade
 An API may offer you many methods to handle things. But often you do not need them all, you just need a few customized methods for your specific use case. For those cases you can create a Facade class which uses the APIs methods and offers some public methods to simplify things for you.
 
 ## Adapter
 Libraries offer functions which you can use in your own code. But sometimes they just do not fit out of the box in your code. For those cases you can create an adapter class which wraps those functions. 
+
+## Proxy
+The Proxy pattern is used when for some reasons you do not want to access directly a service. Instead you go over a Proxy which then passes your request to the actual service.
+
+* Getting the data costs a lot: You build up a cache for the following requests.
+* Getting the data is restricted: You check the user authorisations.
