@@ -1,5 +1,5 @@
 # Basic
-The basic pattern are used within the advanved pattern.
+The basic pattern are used within the advanced pattern.
 
 ## Inheritance
 A new class is created by extending another one. It is recommended for situations like: a student IS A person.
@@ -39,7 +39,7 @@ Annotations give the chance to mark and also to add metadata to the code.
 
 The example shows the use of annotations with Java Reflection API.
 
-> Reflection means the object know his structure.
+> Reflection means the object know its structure.
 
 # Creation
 The creation patterns handle the creation of objects.
@@ -64,3 +64,8 @@ The Proxy pattern is used when for some reasons you do not want to access direct
 
 * Getting the data costs a lot: You build up a cache for the following requests.
 * Getting the data is restricted: You check the user authorisations.
+
+## Data Access Object
+The idea is to divide business logic and persistence logic by using the DTO pattern.
+
+> Dividing the logic is called Separation of Concern.
