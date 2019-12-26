@@ -1,5 +1,5 @@
 # Basic
-The basic pattern are used within the advanced pattern.
+The basic patterns are used within the advanced pattern.
 
 ## Inheritance
 A new class is created by extending another one. It is recommended for situations like: a student IS A person.
@@ -14,7 +14,7 @@ An interface defines methods which a class must implement. Those implementations
 The delegation adds some functionality from another class.
 
 * From the inside: by instantiation of class
-* From the outside: over the constructor or a method param
+* From the outside: by the constructor or method param
 
 ## Strategy
 Depending on a condition in the Context-Class (in this case StrategyExample) a specific class is instantiated and passed to the interface.
@@ -35,7 +35,7 @@ The implementation can be checked by `if(someObj instanceof Serializable)`.
 Annotations give the chance to mark and also to add metadata to the code.
 
 * @Deprecated: the class is backward compatible and should not be used for new code
-* @Override: checks if the super has actually the method which should be overridden
+* @Override: checks if the super class has actually the method which should be overridden
 
 The example shows the use of annotations with Java Reflection API.
 
@@ -45,10 +45,10 @@ The example shows the use of annotations with Java Reflection API.
 The creation patterns handle the creation of objects.
 
 ## Singleton
-The Singleton pattern is used when you just need one instance of an class: E. g. when communicating with a printer or logging. 
+The singleton pattern is used when you just need one instance of a class: E. g. when communicating with a printer or logging. 
 
 ## Factory
-The Factory pattern is used when the creation of an object might be difficult or take pretty much lines of code. For those cases there are helpers like factories which create the object.
+The factory pattern is used when the creation of an object might be difficult or take pretty much lines of code. For those cases there are helpers like factories which create the object.
 
 # Structure
 The structures pattern are used when the actual structure is not suitable and needs to be customized.
@@ -60,7 +60,7 @@ An API may offer you many methods to handle things. But often you do not need th
 Libraries offer functions which you can use in your own code. But sometimes they just do not fit out of the box in your code. For those cases you can create an adapter class which wraps those functions. 
 
 ## Proxy
-The Proxy pattern is used when for some reasons you do not want to access directly a service. Instead you go over a Proxy which then passes your request to the actual service.
+The proxy pattern is used when for some reasons you do not want to access directly a service. Instead you go over a proxy which then passes your request to the actual service.
 
 * Getting the data costs a lot: You build up a cache for the following requests.
 * Getting the data is restricted: You check the user authorisations.
