@@ -66,6 +66,6 @@ The proxy pattern is used when for some reasons you do not want to access direct
 * Getting the data is restricted: You check the user authorisations.
 
 ## Data Access Object
-The idea is to divide business logic and persistence logic by using the DTO pattern.
+The idea is to divide business logic and persistence logic by using the DAO pattern.
 
 > Dividing the logic is called Separation of Concern.

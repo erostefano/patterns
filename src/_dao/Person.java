@@ -1,4 +1,4 @@
-package _dto;
+package _dao;
 
 public class Person {
     private String name;

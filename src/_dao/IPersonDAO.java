@@ -1,4 +1,4 @@
-package _dto;
+package _dao;
 
 import java.util.List;
 

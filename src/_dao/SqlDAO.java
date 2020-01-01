@@ -1,16 +1,16 @@
-package _dto;
+package _dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class XmlDAO implements IPersonDAO {
+public class SqlDAO implements IPersonDAO {
 
     List<Person> persons = new ArrayList<>();
 
     @Override
     public void savePerson(Person person) {
         persons.add(person);
-        System.out.println("Save " + person.getName() + " as XML in defined dir!");
+        System.out.println("Save " + person.getName() + " in Database!");
     }
 
     @Override

@@ -1,6 +1,6 @@
-package _dto;
+package _dao;
 
-public class DtoExample {
+public class DaoExample {
     public static void main(String[] args) {
         Person steve = new Person("Steve");
         IPersonDAO personDAO = new XmlDAO();
