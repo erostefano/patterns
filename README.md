@@ -69,3 +69,6 @@ The proxy pattern is used when for some reasons you do not want to access direct
 The idea is to divide business logic and persistence logic by using the DAO pattern.
 
 > Dividing the logic is called Separation of Concern.
+
+## Generic DAO
+To persist multiple domain objects you can use a generic data access object to avoid duplicate code. To achieve this you have to use Generics.
