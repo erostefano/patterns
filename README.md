@@ -72,3 +72,11 @@ The idea is to divide business logic and persistence logic by using the DAO patt
 
 ## Generic DAO
 To persist multiple domain objects you can use a generic data access object to avoid duplicate code. To achieve this you have to use Generics.
+
+# Behavior
+The behavior patterns are used when the behavior is complex.
+
+## Observer
+Sometimes when an object changes you need to notify other objects so they can react. To achieve this you need to register an observer to the observable. As soon the observable gets changed it will notify registered observer.
+
+> The example registers multiple observers
