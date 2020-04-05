@@ -80,3 +80,6 @@ The behavior patterns are used when the behavior is complex.
 Sometimes when an object changes you need to notify other objects so they can react. To achieve this you need to register an observer to the observable. As soon the observable gets changed it will notify registered observer.
 
 > The example registers multiple observers
+
+## Decorator
+A decorator provides an enhanced interface to the original object to add implementations dynamically.
