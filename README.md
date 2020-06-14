@@ -83,3 +83,9 @@ Sometimes when an object changes you need to notify other objects so they can re
 
 ## Decorator
 A decorator provides an enhanced interface to the original object to add implementations dynamically.
+
+## Interceptor
+Some events require specific pre-processing or post-processing.
+
+* Intercepting an incoming request to verify the authorization.
+* Intercepting an outgoing request to add authorisation.
